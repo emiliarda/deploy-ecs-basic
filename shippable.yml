@@ -51,7 +51,7 @@ integrations:
 resources:
   - name: deploy-ecs-basic-image
     type: image
-    integration: dr-aws-keys
+    integration: dr-ecr
     pointer:
       sourceName: "218658406232.dkr.ecr.us-east-2.amazonaws.com/awpto"
     seed:
