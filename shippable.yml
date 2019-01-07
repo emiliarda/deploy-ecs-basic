@@ -45,7 +45,7 @@ integrations:
   # http://docs.shippable.com/platform/integration/aws-keys/
   hub:
     - integrationName: dr-ecr
-      type: amazonKeys
+      type: ecr
 
 
 resources:
