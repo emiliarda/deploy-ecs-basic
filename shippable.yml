@@ -46,7 +46,7 @@ integrations:
   hub:
     - integrationName: dr-ecr
       type: ecr
-      region: ap-southeast-2
+      region: us-east-1
 
 
 resources:
