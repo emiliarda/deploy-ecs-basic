@@ -46,7 +46,7 @@ integrations:
   hub:
     - integrationName: dr-ecr
       type: ecr
-      region: us-east-1
+      region: us-east-2
 
 
 resources:
@@ -81,10 +81,10 @@ resources:
 
   - name: deploy-ecs-basic-ecs-cluster
     type: cluster
-    integration: dr-aws-keys
+    integration: dr-aws
     pointer:
       sourceName : "deploy-ecs-basic" #name of the cluster to which we are deploying
-      region: "us-east-1"
+      region: "us-east-2"
 
 
 jobs:
